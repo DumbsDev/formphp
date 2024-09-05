@@ -1,6 +1,6 @@
 <?php
-    $say = $_POST['say'];
-    $tell = $_POST['to'];
+    $say = $_GET['say'];
+    $tell = $_GET['to'];
 
     echo "You said: $say to $tell";
 ?>
